@@ -1,0 +1,52 @@
+html, body {
+  margin:0px;
+  padding: 0px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+ 
+}
+
+.hero-panel{
+  margin-top: -60px;
+  padding: 200px;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #53642E, #B1B57A);
+}
+
+.description{
+  color: white;
+  margin: 0px;
+}
+
+.description p{
+  margin: 0px;
+  font-size: 40px;
+}
+
+ /* Define the button style */
+ .outline-button {
+  margin: 20px 20px 0px 0px;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 2px solid #FFD600; /* Default outline color */
+  border-radius: 5px;
+  background: transparent;
+  color: #FFD600; /* Default text color */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Change the button style on hover */
+.outline-button:hover {
+  background: #FFD600; /* Background color on hover */
+  color: #000000; /* Text color on hover */
+}
+
+/* Change the button style on click (active state) */
+.outline-button:active {
+  background: #FFD600; /* Darker background color on click */
+  border: 2px solid #FFD600; /* Darker outline color on click */
+}

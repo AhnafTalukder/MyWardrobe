@@ -1,0 +1,25 @@
+
+
+
+/* CSS for the outlined button */
+.outlined-button {
+    width: 30%;
+    margin: 10px;
+    background-color: transparent;
+    font-size: 20px;
+  display: inline-block;
+  padding: 10px 20px;
+  border: 5px solid #8054AD; /* Purple outline */
+  color: #8054AD; /* Purple text color */
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+
+}
+
+/* CSS for the hover effect */
+.outlined-button:hover {
+  background-color: #8054AD; /* Purple background on hover */
+  color: white; /* White text color on hover */
+
+}
